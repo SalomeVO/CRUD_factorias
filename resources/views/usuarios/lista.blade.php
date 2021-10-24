@@ -51,7 +51,7 @@
 
                 </table>
 
-                {{ $users->links() }} //para paginanar
+                {{ $users->links() }} <!--para paginanar-->
 
             </div>
         </div>
