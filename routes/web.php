@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('usuarios.lista');
 });
+
+//ruta para el formulario
+Route::get('/form', 'UserController@userform');
+
+//ruta para guardar
+Route::post('/save', 'UserController@save')->name('save');
