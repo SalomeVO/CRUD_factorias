@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('usuarios.lista');
-});
+//ruta de lista
+Route::get('/', 'UserController@lista');
 
 //ruta para el formulario
 Route::get('/form', 'UserController@userform');
