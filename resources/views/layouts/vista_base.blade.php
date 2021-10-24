@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 
-<body>
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-    <a class="navbar-brand" href="{{url('/')}}">Usuarios</a>
-</nav>
-<div class="container ">
-@yield('content') <!-- es para que se herede en todas las plantillas-->
-</div>
-</body>
+    <body>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="{{url('/')}}">Usuarios</a>
+        </nav>
+        <div class="container ">
+           @yield('content')<!-- es para que se herede en todas las plantillas-->
+        </div>
+    </body>
 </html>
