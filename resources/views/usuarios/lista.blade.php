@@ -3,8 +3,7 @@
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <h2 class="text-center mb-5">Usuarios Registrados</h2>
-                <a class="btn btn-success mb-4" href="{{url('/form')}}">AGREGAR</a>
+                <h2 class="text-center mb-5">Clientes Guardados</h2>
 
                 <!--Mensaje flahs de usuario eliminado-->
                 @if(session('usuarioEliminado'))
