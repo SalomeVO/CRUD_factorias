@@ -17,7 +17,9 @@
                     <thead>
                     <tr>
                         <th>Nombre</th>
-                        <th>Email</th>
+                        <th>Telefono</th>
+                        <th>Dia</th>
+                        <th>Mes</th>
                         <th>Acciones</th>
                     </tr>
                     </thead>
@@ -26,7 +28,9 @@
                         @foreach($users as $user)
                         <tr>
                             <td>{{$user->nombre}}</td>
-                            <td>{{$user->email}}</td>
+                            <td>{{$user->telefono}}</td>
+                            <td>{{$user->dia}}</td>
+                            <td>{{$user->mes}}</td>
                             <td>
                                 <div class="btn-group"><!--Para que los bonotes esten a la par-->
 

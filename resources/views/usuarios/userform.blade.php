@@ -36,8 +36,18 @@
                             </div>
 
                             <div class="row form-group">
-                                <label for="" class="col-2">Email</label>
-                                <input type="text" name="email" class="form-control col-md-9">
+                                <label for="" class="col-2">Telefono</label>
+                                <input type="text" name="telefono" class="form-control col-md-9">
+                            </div>
+
+                            <div class="row form-group">
+                                <label for="" class="col-2">Dia</label>
+                                <input type="text" name="dia" class="form-control col-md-9">
+                            </div>
+
+                            <div class="row form-group">
+                                <label for="" class="col-2">Mes</label>
+                                <input type="text" name="mes" class="form-control col-md-9">
                             </div>
 
                             <div class="row form-group">
