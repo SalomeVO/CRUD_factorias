@@ -16,8 +16,8 @@
 </head>
 
     <body>
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-            <a class="navbar-brand" href="{{url('/')}}">Usuarios</a>
+        <nav class="navbar navbar-light bg-success">
+            <a class="navbar-brand" href="{{url('/')}}">Soluciones Vasquez</a>
         </nav>
         <div class="container ">
            @yield('content')<!-- es para que se herede en todas las plantillas-->

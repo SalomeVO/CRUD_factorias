@@ -12,7 +12,7 @@
                     </div>
                 @endif
 
-                <table class="table table-bordered table-striped text-center">
+                <table class="table table-bordered table-striped text-center table-success">
                     <thead>
                     <tr>
                         <th>Nombre</th>

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Usuario;
+use App\Usuario; //para encontrar usuario
 
 class DatabaseSeeder extends Seeder
 {
