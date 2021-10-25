@@ -10,7 +10,7 @@ class UserController extends Controller
     //para que funcione la vista lista
     public function lista(){
 
-        $data['users'] = Usuario::paginate(5);
+        $data['users'] = Usuario::paginate(10);
 
         return view('usuarios.lista', $data);
     }
