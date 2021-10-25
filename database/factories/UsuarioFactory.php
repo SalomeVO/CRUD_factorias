@@ -8,6 +8,8 @@ use Faker\Generator as Faker;
 $factory->define(Usuario::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
-        'email' =>$faker->email
+        'telefono' =>$faker->tollFreePhoneNumber,
+        'dia' =>$faker->dayOfWeek($max = 'now'),
+        'mes' =>$faker->monthName($max = 'now')
     ];
 });
