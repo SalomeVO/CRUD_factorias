@@ -33,10 +33,6 @@
                             <td>
                                 <div class="btn-group"><!--Para que los bonotes esten a la par-->
 
-                                    <a href="{{route('editform', $user->id)}}" class="btn btn-primary mb-3 mr-2">
-                                        <i class="fas fa-pencil-alt"></i>
-                                    </a>
-
                                     <form action="{{route('delete', $user->id)}}" method="POST">
                                         @csrf @method('DELETE')
 
