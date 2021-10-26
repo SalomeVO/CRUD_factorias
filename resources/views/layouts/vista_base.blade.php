@@ -16,8 +16,26 @@
 </head>
 
     <body>
-        <nav class="navbar navbar-light bg-success">
-            <a class="navbar-brand" href="{{url('/')}}">Soluciones Vasquez</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{url('/')}}">Soluciones Vasquez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trabajadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Herramienta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Vehiculos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="container ">
            @yield('content')<!-- es para que se herede en todas las plantillas-->

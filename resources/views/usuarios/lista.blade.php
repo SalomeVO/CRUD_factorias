@@ -3,7 +3,7 @@
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <h2 class="text-center mb-5">Clientes Guardados</h2>
+                <h2 class="text-center mb-5"><p>Clientes De Soluciones Vasquez</p></h2>
 
                 <!--Mensaje flahs de usuario eliminado-->
                 @if(session('usuarioEliminado'))
